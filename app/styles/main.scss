@@ -5,7 +5,38 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
-
 // your own css/scss
+.jumbotron {
+    background: url('../images/background.jpg') center center;
+    background-attachment: fixed;
+    min-height: 400px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+#features .header {
+    text-align: center;
+}
+
+#features .divider {
+    height: 1px;
+    width: 100%;
+    position: relative;
+    margin: 70px 0 60px;
+}
+
+@media (max-width: 991px) {
+    #features .divider 
+    {
+        margin: 55px 0 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    #features 
+    {
+        margin-top: 0;
+    }
+}
 
 // your own css/scss ends

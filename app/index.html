@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>bootstrap</title>
     <meta name="description" content="">
@@ -20,24 +21,133 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-    
-  </head>
-  <body>
+
+</head>
+
+<body>
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- sisältö alkaa -->
-    Tähän sit jotain.
+
+    <!--header and navigation-->
+    <div class="jumbotron">
+        <!--navigation-->
+        <nav class="navbar navbar-default">
+
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">React</a>
+                </div>
+
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Home ads
+                    <span class="caret"></span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Showcase
+                    <span class="caret"></span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Pricing
+                    <span class="caret"></span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">More pages
+                    <span class="caret"></span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Blog
+                    <span class="caret"></span></a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>THE BEST INTERFACES FOR YOUR WEB AND MOBILE APPS</h1>
+                    <p>Get a complete existing website with great design up and running in no time</p>
+
+                    <!--<button type="button" class="btn btn-default">See the tour</button>
+                    <button type="button" class="btn btn-info">Sign up here</button>-->
+                    <div>
+                        <a href="#" class="btn btn-lg btn-default">See the tour</a>
+                        <a href="#" class="btn btn-lg btn-info">Sign up free</a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <img src="images/laptop.png" class="img-responsive" alt="laptop">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--features-->
+
+    <div id="features">
+
+        <div class="divider"></div>
+
+        <div class="container">
+            <div class="row header">
+                <div class="col-md-12">
+                    <h2>Need an easy way to customize your site</h2>
+                    <p>React is perfect for novice developers and experts alike</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>You don't need to have great technical experience to use your product</h3>
+                    <p>Whether you want to fill this paragraph with some text like I'm doing right now, this place is perfect to describe some features or anything you want - React has a complete solution for you.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="images/feature1.png" class="img-responsive" alt="Feature1">
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/feature2.png" class="img-responsive" alt="Feature2">
+                </div>
+
+                <div class="col-md-6">
+                    <h3>A fully featured web design that works</h3>
+                    <p>You have complete control over the look & feel of your website, we offer the best quality so you take your site up and running in no time.</p>
+                    <p>Write some text here to explain the features of your site or application, it has lots of uses. </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <!-- sisältö loppuu -->
-      
+
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
-    
+
     <!-- build:js(.) scripts/plugins.js -->
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
@@ -52,11 +162,12 @@
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
     <!-- endbuild -->
-    
+
 
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
 
-  </body>
+</body>
+
 </html>
